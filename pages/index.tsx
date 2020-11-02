@@ -20,7 +20,7 @@ const index = () => (
       <section className={styles.profile}>
         <img
           className={styles.avatar}
-          src="http://www.gravatar.com/avatar/bf45b58ab636e1610e6a8573cf6c796f.jpg?s=280"
+          src="https://www.gravatar.com/avatar/bf45b58ab636e1610e6a8573cf6c796f.jpg?s=280"
         />
         <p>My Name Is</p>
         <h1 className={styles.h1}>Ryan van Zeben</h1>

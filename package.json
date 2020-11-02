@@ -13,7 +13,7 @@
     "build": "next build",
     "export": "next export",
     "start": "next start",
-    "predeploy": "rm -rf node_modules/.cache && rimraf out && rimraf build && NODE_ENV=production next build && NODE_ENV=production  next export",
+    "predeploy": "rm -rf node_modules/.cache && rimraf out && rimraf build ",
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
